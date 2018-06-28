@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <!-- Page Title -->
-    <title>Alisson Cunha</title>
+    <title>Alisson Cunha - Full-Stack Developer</title>
     
     <!---Font Icon-->
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -85,6 +85,8 @@
         
         <div class="bg_overlay bg_image page_cover" style="background-image:url('./images/background1.jpeg')"></div>
         
+        <div id="particles-js"></div>
+        
         
         <!--~~~~~ Start Home Wrapper Info ~~~~~-->
         <div class="home_wrapper_info">
@@ -97,13 +99,14 @@
                                 <span>I am</span>
                                 <span class="cd-words-wrapper">
                                     <b class="is-visible">Alisson Cunha</b>
-                                    <b>Developer</b>
-                                    <!-- <b></b> -->
+                                    <b>Full Stack dev</b>
+                                    <b>Javascript lover</b>
                                 </span>
                             </h1>
                             <ul class="expart_list">
-                                <li>Full-Stack</li>
-                                <!-- <li>Ux/Ui Designer</li> -->
+                                <li>Web developer</li>
+                                <li>NodeJs applications</li>
+                                <li>Mobile applications</li>
                             </ul>
                             <div class="home_btn_group">
                                 <a class="btn btn-default" href="#contact" data-scroll-goto="5">hire me</a>
@@ -138,19 +141,19 @@
                         <div class="row">
                             <div class="col-lg-5">
                                 <div class="about_thumb">
-                                    <img src="http://via.placeholder.com/500x550" alt="img">
+                                    <img src="images/profile.jpg" alt="img">
                                 </div>
                             </div>
                             <div class="col-lg-7">
                                 <div class="about_info">
                                     <h2>Hello,</h2>
-                                    <h3>I AM A UI/UX DESIGNER</h3>
+                                    <h3>I AM A FULL STACK DEVELOPER</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque officiis illum reprehenderit impedit quisquam vero soluta necessitatibus commodi accusantium nulla perferendis reiciendis.</p>
                                     <ul class="info_list">
-                                        <li><strong>NAME:</strong><span>Pitan son</span></li>
-                                        <li><strong>Email: </strong><span>youremail@gmail.com</span></li>
+                                        <li><strong>NAME:</strong><span>Alisson Cunha</span></li>
+                                        <li><strong>Email: </strong><span>alissonw3c@gmail.com</span></li>
                                         <li><strong>old:</strong><span>23</span></li>
-                                        <li><strong>address:</strong><span>Dhaka, Bangladesh</span></li>
+                                        <li><strong>address:</strong><span>Criciuma, Brazil</span></li>
                                     </ul>
                                     <a href="#" class="btn btn-default btn-primary"><i class="fa fa-download"></i> download CV</a>
                                 </div>
@@ -704,7 +707,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-7">
                         <div class="footer_description text-center">
-                            <a class="footer_logo site_logo" href="index.html"><span>P</span>itar</a>
+                            <a class="footer_logo site_logo" href="particles.html"><span>P</span>itar</a>
                             <p>We love who we are and we are very proud to be Curabitur sit amet magnaquam. Praesent in libero vel turpis</p>
                             <ul class="footer_social_share">
                                 <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
@@ -751,6 +754,125 @@
     <script src="js/jquery.appear.js"></script>
     <!-- Main scripts -->
     <script src="js/main.js"></script>
+    <script type="text/javascript">
+        particlesJS('particles-js',{
+            "particles": {
+              "number": {
+                "value": 50,
+                "density": {
+                  "enable": true,
+                  "value_area": 800
+                }
+              },
+              "color": {
+                "value": "#888"
+              },
+              "shape": {
+                "type": "circle",
+                "stroke": {
+                  "width": 0,
+                  "color": "#888"
+                },
+                "polygon": {
+                  "nb_sides": 5
+                },
+                "image": {
+                  "src": "img/github.svg",
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "opacity": {
+                "value": 0.5,
+                "random": false,
+                "anim": {
+                  "enable": false,
+                  "speed": 3,
+                  "opacity_min": 0.1,
+                  "sync": false
+                }
+              },
+              "size": {
+                "value": 5,
+                "random": true,
+                "anim": {
+                  "enable": false,
+                  "speed": 40,
+                  "size_min": 0.1,
+                  "sync": false
+                }
+              },
+              "line_linked": {
+                "enable": true,
+                "distance": 150,
+                "color": "#888",
+                "opacity": 0.4,
+                "width": 1
+              },
+              "move": {
+                "enable": true,
+                "speed": 6,
+                "direction": "none",
+                "random": false,
+                "straight": false,
+                "out_mode": "out",
+                "attract": {
+                  "enable": false,
+                  "rotateX": 600,
+                  "rotateY": 1200
+                }
+              }
+            },
+            "interactivity": {
+              "detect_on": "canvas",
+              "events": {
+                "onhover": {
+                  "enable": true,
+                  "mode": "repulse"
+                },
+                "onclick": {
+                  "enable": true,
+                  "mode": "push"
+                },
+                "resize": true
+              },
+              "modes": {
+                "grab": {
+                  "distance": 400,
+                  "line_linked": {
+                    "opacity": 1
+                  }
+                },
+                "bubble": {
+                  "distance": 400,
+                  "size": 40,
+                  "duration": 2,
+                  "opacity": 8,
+                  "speed": 3
+                },
+                "repulse": {
+                  "distance": 200
+                },
+                "push": {
+                  "particles_nb": 4
+                },
+                "remove": {
+                  "particles_nb": 2
+                }
+              }
+            },
+            "retina_detect": true,
+            "config_demo": {
+              "hide_card": false,
+              "background_color": "#b61924",
+              "background_image": "",
+              "background_position": "50% 50%",
+              "background_repeat": "no-repeat",
+              "background_size": "cover"
+            }
+          }
+        );
+    </script>
 
 </body>
 </html>
